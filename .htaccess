@@ -1,0 +1,10 @@
+Options -Indexes
+RewriteEngine On
+
+# Bloquer l'accès direct aux dossiers sensibles
+RewriteRule ^(config|models|controllers|middleware|utils|uploads)/ - [F,L]
+
+# Tout rediriger vers le routeur principal
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^api/(.*)$ api/router.php [QSA,L]
