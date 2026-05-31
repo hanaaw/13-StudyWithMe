@@ -1,6 +1,11 @@
 README.md
 # STUDYWITHME
 Site web de e-learning
+
+Study With Me est une application d’e-learning qui permet aux étudiants d’organiser, de planifier et de faciliter leurs tâches. Elle est conçue pour établir un planning pour chaque session, avec la possibilité de collaborer avec d’autres utilisateurs, soit via des shared rooms, soit en créant son propre espace. L’application permet également de consulter les profils d’autres étudiants à la recherche d’un study group.
+
+Cible: Etudiants/enseignents/administrateurs
+
 ## Equipe
 - Hanaa Lamine 
 - Khouloud Chlaghmi 
@@ -9,9 +14,17 @@ Site web de e-learning
 
 ## Technologies
 HTML5 | CSS3 | JavaScript | PHP | mysql
+
 ## Lancer le projet
 Ouvrir StudyWithMe.html dans un navigateur web .
-```
+
+## Prérequis d'installation
+VSCODE/XAMP/JDK 17/NODE.JS
+
+## Livrables antérieurs
+/13-StudyWithMe/docs
+
+## Arborescence
 13-StudyWithMe/
 ├─ README.md
 │
@@ -87,4 +100,4 @@ Ouvrir StudyWithMe.html dans un navigateur web .
 └─ database/
    └─ studywithme.sql
 
-```
+   
